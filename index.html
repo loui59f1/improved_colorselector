@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Improved Color selector</title>
+  </head>
+  <body>
+    <h1>Improved Color Selector</h1>
+
+    <div class="color_selector">
+      <input
+        type="color"
+        id="choose_color"
+        name="choose_color"
+        value="#e66465"
+      />
+      <label for="choose_color">Vælg farve</label>
+    </div>
+    <div id="color_box"></div>
+    <div class="color_selected">
+      <p id="hex_color">HEX:</p>
+      <p id="rgb_color">RGB:</p>
+      <p id="hsl_color">HSL:</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
